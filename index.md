@@ -1,91 +1,100 @@
 ---
 layout: cv
-title: Isaac Newtons's CV
+title: Léo Martin's CV
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+<!--- Logo --->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+<div markdown="1" class="left">
 
-<div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
+<div markdown="1" class="header">
+<div class="photo">
+<img id="photo" src="assets/img/lmartin.jpg">
+</div>
+# Léo Martin
+</div>
+
+<div class="reach_me">
+<div><i class="fas fa-phone-alt"></i>+33 1 23 45 67 89</div>
+<div><i class="fas fa-envelope"></i><a href="mailto:lmartin.dev@protonmail.com" title="lmartin.dev@protonmail.com">lmartin.dev@protonmail.com</a></div>
+<div><i class="fab fa-firefox-browser"></i><a href="https://0x050f.github.io">0x050f.github.io</a></div>
+<div><i class="fab fa-github"></i><a href="https://github.com/0x050f">github.com/0x050f</a></div>
+<div><i class="fas fa-skull"></i><a href="https://www.root-me.org/0x050f">root-me.org/0x050f</a></div>
 </div>
 
 
-## Currently
+## Languages
++ xxxx xxx_ C
++ xxxx xx__ Rust
++ xxxx xx__ Python
++ xxxx xx__ Intel Assembly
++ xxxx x___ C++
++ xxxx x___ Bash
++ xxxx \____ Php
++ xxxx \____ Java
++ xxxx \____ Javascript
++ xxxx \____ Ruby
++ xx__ \____ PL/SQL
++ xx__ \____ Perl
 
-Standing on the shoulders of giants
-
-### Specialized in
-
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
-
-
-### Research interests
-
-Cooling, power series, optics, alchemy, planetary motions, apples.
-
-
-## Education
-
-`1654-1660`
-__The King's School, Grantham.__
-
-`June 1661 - now`
-__Trinity College, Cambridge__
-
-- Sizar
-
-`1667 - death`
-__Trinity College, Cambridge__
-
-- Fellow
+</div>
 
 
+<div markdown="1" class="right">
+# Security Developer
+Looking for a job
 
-## Awards
+## Experiences
 
-`2012`
-President, *Royal Society*, London, UK
+`08/2022 - 09/2023`
+__Security Development Apprenticeship__
 
-Associate, *French Academy of Science*, Paris, France
+`Paris, France`
+*Ministère des Armées*
++ Development of a graph generator in python to visualize system event logs for digital investigation purposes. Also worked on setting up daily reports via dashboard to correlate event logs and command lines using syntactic analysis. Finally achieved the automatic deployment of the solution to be able to include it in a SIEM.
 
+`05/2021 - 11/2021`
+__DevOps Internship__
 
+`Toulouse, France`
+*DSNA/DTI - DGAC (Aviation Civile)*
++ Built a special iso from CentOS8 and ansible playbook with tools for approach and control towers. Also build up iso/playbook testing using continuous integration and virtualization.
 
-## Publications
+## Studies
 
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
+`10/2019 - 09/2023`
+__RNCP7: Expert in IT Architecture (RNCP36137)__
 
-### Journals
+`Paris, France`
+*42Paris*
 
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
++ Discovering of low-level development in C then started to become interested in devops and cybersecurity.
++ A few projects I have done:
+  - · Develop my own unix-like Kernel in Rust from scratch
+> [<i class="fab fa-github"></i> github.com/Harthann/Yak](https://github.com/Harthann/Yak)
+  - · Virus/Keylogger (Unix/Windows) projects (intel asm/C)
+> [<i class="fab fa-github"></i> github.com/0x050f/death](https://github.com/0x050f/death) \| [<i class="fab fa-github"></i> github.com/0x050f/tinky-winkey](https://github.com/0x050f/tinky-winkey)
+  - · Cryptographic projects (C)
+> [<i class="fab fa-github"></i> github.com/0x050f/ft_ssl](https://github.com/0x050f/ft_ssl)
+  - · Network projects (C)
+> [<i class="fab fa-github"></i> github.com/Harthann/ft_nmap](https://github.com/Harthann/ft_nmap) \| [<i class="fab fa-github"></i> github.com/0x050f/ft_malcolm](https://github.com/0x050f/ft_malcolm)
+  - · Reverse engineering and pwned projects
+  - · DevOps projects (ansible/docker/kubernetes)
+  - · Algorithm projects (python/C++/js)
++ More projects on github !
 
-`1669`
-Lectiones opticæ.
+`2017 - 2018`
+__Bachelor's Degree__
 
-etc. etc. etc.
+`Nancy, France`
+*Université de Lorraine*
 
-### Patents
++ Web/Game projects (php/js), Algorithm projects (Java), and first c++ projects.
 
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
+`2015 - 2017`
+__DUT Informatique__ 
 
+`Nancy, France`
+*IUT Nancy-Charlemagne*
 
-## Occupation
-
-`1600`
-__Royal Mint__, London
-
-- Warden
-- Minted coins
-
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
-
-
-
-<!-- ### Footer
-
-Last updated: May 2013 -->
-
-
++ Discovery of the development world.
++ Web projects, lot of Java projects (Algorithm, network, ...).
