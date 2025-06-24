@@ -1,6 +1,6 @@
 ---
 layout: cv
-title: Léo Martin's CV
+title: Jario Swami
 ---
 <!--- Logo --->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
@@ -8,17 +8,17 @@ title: Léo Martin's CV
 
 <div markdown="1" class="header">
 <div class="photo">
-<img id="photo" src="assets/img/lmartin.jpg">
+<img id="photo" src="assets/img/jario.jpg">
 </div>
-# Léo Martin
+# Jario
 </div>
 
 <div class="reach_me">
-<div><i class="fas fa-phone-alt"></i>+33 1 23 45 67 89</div>
-<div><i class="fas fa-envelope"></i><a href="mailto:lmartin.dev@protonmail.com" title="lmartin.dev@protonmail.com">lmartin.dev@protonmail.com</a></div>
-<div><i class="fab fa-firefox-browser"></i><a href="https://0x050f.github.io">0x050f.github.io</a></div>
-<div><i class="fab fa-github"></i><a href="https://github.com/0x050f">github.com/0x050f</a></div>
-<div><i class="fas fa-skull"></i><a href="https://www.root-me.org/0x050f">root-me.org/0x050f</a></div>
+<div><i class="fas fa-phone-alt"></i>+55 61 99336-7212</div>
+<div><i class="fas fa-envelope"></i><a href="mailto:jariolog@gmail.com" title="jario@ufmg.br">jario@ufmg.br</a></div>
+<div><i class="fab fa-firefox-browser"></i><a href="https://jario.github.io">jario.github.io</a></div>
+<div><i class="fab fa-github"></i><a href="https://github.com/jario">github.com/jario</a></div>
+<div><i class="fas fa-skull"></i><a href="https://www.root-me.org/jario">root-me.org/jario</a></div>
 </div>
 
 
