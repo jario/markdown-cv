@@ -14,34 +14,30 @@ title: Jario Swami
 </div>
 
 <div class="reach_me">
-<div><i class="fas fa-phone-alt"></i>+55 61 99336-7212</div>
+<div><i class="fas fa-phone-alt"></i><a href="\\wa.me\5561993367212" title="Whatsapp">`+55 61 99336-7212`</a></div>
 <div><i class="fas fa-envelope"></i><a href="mailto:jariolog@gmail.com" title="jario@ufmg.br">jario@ufmg.br</a></div>
-<div><i class="fab fa-firefox-browser"></i><a href="https://jario.github.io">jario.github.io</a></div>
-<div><i class="fab fa-github"></i><a href="https://github.com/jario">github.com/jario</a></div>
-<div><i class="fas fa-skull"></i><a href="https://www.root-me.org/jario">root-me.org/jario</a></div>
+<div><i class="fab fa-linkedin"></i><a href="https://linkedin.com/in/jario">Jario</a></div>
+<div><i class="fas fa-twitter"></i><a href="https://x.com/jarioswami">@JarioSwami</a></div>
+<div><i class="fab fa-youtube"></i><a href="https://youtube.com/@jarioswami">@JarioSwami</a></div>
+<div><i class="fab fa-github"></i><a href="https://github.com/jario">Jario</a></div>
+<div><i class="fab fa-dev"></i><a href="https://dev.to/jario">Jario</a></div>
 </div>
 
 
-## Languages
-+ xxxx xxx_ C
-+ xxxx xx__ Rust
-+ xxxx xx__ Python
-+ xxxx xx__ Intel Assembly
-+ xxxx x___ C++
-+ xxxx x___ Bash
-+ xxxx \____ Php
-+ xxxx \____ Java
-+ xxxx \____ Javascript
-+ xxxx \____ Ruby
-+ xx__ \____ PL/SQL
-+ xx__ \____ Perl
-
+## Interesses
++ ****  Yoga
++ ****  Meditação
++ ****  Gestão Ambiental/Agricultura
++ ****  Geodésia
++ ****  Astronomia
++ ****  
++ ****  
 </div>
 
 
 <div markdown="1" class="right">
-# Security Developer
-Looking for a job
+# Security 
+Loo
 
 ## Experiences
 
