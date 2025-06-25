@@ -14,10 +14,10 @@ title: Jario Swami
 </div>
 
 <div class="reach_me">
-<div><i class="fas fa-phone-alt"></i><a href="\\wa.me\5561993367212" title="Whatsapp">`+55 61 99336-7212`</a></div>
+<div><i class="fas fa-phone-alt"></i><a href="//wa.me\5561993367212" title="Whatsapp">+5561993367212</a></div>
 <div><i class="fas fa-envelope"></i><a href="mailto:jariolog@gmail.com" title="jario@ufmg.br">jario@ufmg.br</a></div>
 <div><i class="fab fa-linkedin"></i><a href="https://linkedin.com/in/jario">Jario</a></div>
-<div><i class="fas fa-x"></i><a href="https://x.com/jarioswami">@JarioSwami</a></div>
+<div><i class="fab fa-x"></i><a href="https://x.com/jarioswami">@JarioSwami</a></div>
 <div><i class="fab fa-youtube"></i><a href="https://youtube.com/@jarioswami">@JarioSwami</a></div>
 <div><i class="fab fa-github"></i><a href="https://github.com/jario">Jario</a></div>
 <div><i class="fab fa-dev"></i><a href="https://dev.to/jario">Jario</a></div>
