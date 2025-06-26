@@ -194,6 +194,7 @@ strong {
 .left > *:not(.header) {
 	width: 88%;
 	left: 1vw;
+	font-size: 1vw;
 }
 
 .left .header > * {
