@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/jario
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jar.io
+  * I am jario (https://keybase.io/jario) on keybase.
+  * I have a public key with fingerprint FF7D 6AD2 2416 AABB 1836  174C 8682 EDDC 8EA4 D7F2
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012024a0fb0e97519376f4f655953e5a54a1865991eac844505bd3274c666cc018de0a",
+      "fingerprint": "ff7d6ad22416aabb1836174c8682eddc8ea4d7f2",
+      "host": "keybase.io",
+      "key_id": "8682eddc8ea4d7f2",
+      "kid": "010139ceb8d3aec677ae4c9becfeb58bd2f7d1ec3e44322d84e2137486d7bcb6ea440a",
+      "uid": "4bb5d46e90333452ae6f30cf698ddf19",
+      "username": "jario"
+    },
+    "service": {
+      "hostname": "jar.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1679065306,
+  "expire_in": 157680000,
+  "prev": "fa8ae2123e59c0bd87dcbfe445d53cf991da44d293c33282db05e0a99b131c16",
+  "seqno": 26,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMNqAnicbVJ7UFRVHF5AIEgEDBtjRpGrzIiB3vdjDVLGJ2BUosVDtnvPOZe9su4u
+u5eX5IBUMBi25YNijEYEGbdhckanmKB1hIJ0GbVJjJfSKGXJQAyPdMIRupdy+qfz
+z5nzO9/3ne/7/c53IX6GYJ/KivHbHzT1Tfn0dLgKDDCifLAUk2ywBDOWYnloYUMW
+iJyqKU+BmBHDCRInaRGXJRwJHEMIFMfKtMwyjMBQiBEZWiR4lhEEAomAp2kGZyRI
+kRwNWJYFACd4iHARi8NkxZqLHHaHYlU1WVnmICtCkqQJVhQlieApltBIPMuTCELA
+I5GGnExqRLPNqTM0c5LoROsVm1bTDqYFe/+Df+obJygBIImHlIgAy3EiooEgISAj
+ieElSGoOCAQoRNMUSUKeRiRBcTTPQk4CEqvp0Qu+CxbkaEliIM0iAacoimZIEbEy
+hQOZFXgIZULQgU7ksIoHkIbeLzo0m4fiMK1UqACkd1WP8d/1PzHsDptqAzaLVjOr
+qt1p1DlqiV0HFSHJ9C/dJClWqLVPYxQih1OxWTEjoSGBquh6BMsJOMtQOBuHoWK7
+4kAmRUcwHMvj2tLfQYV600Ve1FKS2twEgEuQ5yCQZK0BDGQoIGszhFpqSAoUoCiS
+J6GEM9rwBEEiKAIQLKYHyrfaMCOpPaWKuZqmU8m1imqBA2GHOjuyFxl8gg0B/r76
+vzIEB4U9/W2zNaHzSusp6f2jiZ3v/Dax8oujyZH+46NfjxwPrG2qNV90v1AZ5RmK
+rJ0r2ro30JIZtiXCb8ej0bnkc75pan1a3GTZrcXu9G3zN88Lv0QnNFc1uMxjbX7Z
+lp2513YvG7Ds7K8zmqZvn46KfHdtwJm6x5uFoomMxA4wlWPbk1J+uLT9c/dcmOFs
+ccXdfNH6uOT7NfHr+tuGsneB4wcyadJLnTRXxhqPba2sNa01hdY7fRrvpyT4/rw7
+6NGLxy4nDT848a0nKHP+m40xQSOTYzGurvfShw+t2vW699T5gCfdqX2/l7edXa20
+fvR8ykHf8JaHJycXR9tG/2xQzR35vY1/fLz6xqLN6cmW0+KZgKWfnUi1z2wqO/er
+IXQ0YWKlfXSitXpH0iXv4bzQJRGzG+6h5R+ux1019sjMUPP9ZWmmoqqcEHPST8Ub
+rvXfehnfGH8jiTN176uYafG/0xcXm/XA7b9K7b063LOt09MUuMS9Z4JMbB0rdqdm
+DZaFe/MSwRt3V/TAdZ7Bi93PxjS31F91FvRez3jV9dpsYdreFdPNXcyVt10O9/aq
+2K+S8rNeUS4kXP5reUT4j1feeilnzUPak1G3z7sJhJhifQ4G3Lw3dGdL1/iMdza+
+4c0vm4J+2O+Oai+LflLDHCkZ6bN++km2b0LyhenqxknjM9GXrO0Z6vVqYeC57blL
+wzoHmkQ45fkbRavACg==
+=0nEF
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jario
+
+==================================================================
