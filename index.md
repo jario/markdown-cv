@@ -29,12 +29,9 @@ title: Jario Swami
 
 ## Interesses
 
-+ *  Yoga
-+ *  Meditação
++ *  Yoga,  Meditação
 + *  Gestão Ambiental/Agrícola
-+ *  Mecânica
-+ *  Astronomia
-+ *  Óptica
++ *  Mecânica. Astronomia, Óptica
   
 </div>
 
