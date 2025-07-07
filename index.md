@@ -25,7 +25,7 @@ title: Jario Swami
 
 
 ## Interesses
-<div class="skills">
+
 + *  Yoga
 + *  Meditação
 + *  Gestão Ambiental/Agrícola
