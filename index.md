@@ -25,6 +25,7 @@ title: Jario Swami
 
 
 ## Interesses
+<div class="skills">
 + *  Yoga
 + *  Meditação
 + *  Gestão Ambiental/Agrícola
@@ -36,25 +37,27 @@ title: Jario Swami
 
 
 <div markdown="1" class="right">
-# Security 
-Loo
+# Minha doutrina pessoal 
+>> No mundo dos sonhos a ilusão é realidade, neste mundo a realidade é ilusão.
 
-## Experiences
+## AbouteMe
 
-`08/2022 - 09/2023`
-__Security Development Apprenticeship__
+`Sobre mim`
+__A respeito do aterramento__
 
-`Paris, France`
-*Ministère des Armées*
-+ Development of a graph generator in python to visualize system event logs for digital investigation purposes. Also worked on setting up daily reports via dashboard to correlate event logs and command lines using syntactic analysis. Finally achieved the automatic deployment of the solution to be able to include it in a SIEM.
+`Brasília - DF, Brasil`
+*Resumo*
++ Jario Swami é o meu nome social[1]. Academicamente, estudei os cursos universitários Bach. Física, Lic. Pedagogia, Gestão Ambiental… e também fiz pós-graduações e cursos técnicos…
 
-`05/2021 - 11/2021`
-__DevOps Internship__
+Meus livros antigos são cinco publicados pela Editora Ciência Moderna/RJ, sobre informática, e os mais recentes são publicados pela Amazon, um sobre pedagogia holística, o outro sobre Meio Ambiente...
 
-`Toulouse, France`
-*DSNA/DTI - DGAC (Aviation Civile)*
-+ Built a special iso from CentOS8 and ansible playbook with tools for approach and control towers. Also build up iso/playbook testing using continuous integration and virtualization.
+`Crença`
+__XV__
 
+`Sobre tudo`
+*Tudo é necessário.*
++ Minha fé inicia e termina no fogo, que é a consciência, a Natureza é meu laboratório.
+<!--
 ## Studies
 
 `10/2019 - 09/2023`
@@ -94,3 +97,6 @@ __DUT Informatique__
 
 + Discovery of the development world.
 + Web projects, lot of Java projects (Algorithm, network, ...).
+
+-->
+[1]: Sou yogacharya. Usei o meu título de swami com o meu nome de batismo para formar o nome social, e também porque sou Swami Maharaj. 
