@@ -37,13 +37,13 @@ title: Jario Swami
 
 
 <div markdown="1" class="right">
-# Minha doutrina pessoal 
+# Jario 
 >> No mundo dos sonhos a ilusão é realidade, neste mundo a realidade é ilusão.
 
 ## AbouteMe
 
 `Sobre mim`
-__A respeito do aterramento__
+__Minha doutrina pessoal__
 
 `Brasília - DF, Brasil`
 *Resumo*
@@ -52,7 +52,7 @@ __A respeito do aterramento__
 Meus livros antigos são cinco publicados pela Editora Ciência Moderna/RJ, sobre informática, e os mais recentes são publicados pela Amazon, um sobre pedagogia holística, o outro sobre Meio Ambiente...
 
 `Crença`
-__XV__
+__Religiosidade ou o que restou__
 
 `Sobre tudo`
 *Tudo é necessário.*
