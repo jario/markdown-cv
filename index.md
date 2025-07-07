@@ -10,7 +10,7 @@ title: Jario Swami
 <div class="photo">
 <img id="photo" src="assets/img/jario.jpg">
 </div>
-# Jario
+Jario
 </div>
 
 <div class="reach_me">
