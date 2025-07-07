@@ -57,7 +57,11 @@ __XV__
 `Sobre tudo`
 *Tudo é necessário.*
 + Minha fé inicia e termina no fogo, que é a consciência, a Natureza é meu laboratório.
-<!--
+   
+
+
+<!--  
+//
 ## Studies
 
 `10/2019 - 09/2023`
@@ -98,5 +102,6 @@ __DUT Informatique__
 + Discovery of the development world.
 + Web projects, lot of Java projects (Algorithm, network, ...).
 
--->
+//-->
+
 [1]: Sou yogacharya. Usei o meu título de swami com o meu nome de batismo para formar o nome social, e também porque sou Swami Maharaj. 
