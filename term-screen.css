@@ -318,7 +318,7 @@ h2:before {
 
   p, ul, li {
     font-size: 2.5vw;
-    width: 95%; /* Ajusta largura do texto em tablet */
+    width: 95%; /*  Ajusta largura do texto em tablet */
   }
 
   .reach_me i {
