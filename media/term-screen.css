@@ -1,52 +1,4 @@
-/* Reset básico */
-html {
-  font-size: 16px;
-}
-
-body {
-  background-color: #ffffff;
-  color: rgba(34, 1, 1, 0.856);
-  font-family: 'Fira Code', monospace;
-  font-size: 1rem;
-  margin: 1rem;
-}
-
-/* Tipografia */
-h1, h2, h3, h4 {
-  font-family: 'Fira Code', monospace;
-  margin-bottom: 1rem;
-}
-
-h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  line-height: 1.2;
-}
-
-h2 {
-  font-size: 1.5rem;
-  color: #50cacd;
-}
-
-h3 {
-  font-size: 1.2rem;
-  text-align: right;
-}
-
-p {
-  font-size: 1rem;
-  margin-bottom: 1rem;
-  text-align: justify;
-  width: 90%;
-}
-
-code {
-  font-family: Monaco, Menlo, monospace;
-  font-size: 0.9rem;
-  color: #aaa;
-}
-
-/* Layout padrão (desktop) */
+/* Estilo padrão (Desktop) — fora de media queries */
 .left, .right {
   display: inline-block;
   vertical-align: top;
@@ -64,55 +16,21 @@ code {
   padding-left: 2%;
 }
 
-/* Imagem e ícones */
-#photo {
-  width: 12rem;
-  border-radius: 50%;
-  border: 0.3rem solid white;
+/* 📲 Tablet (somente até 1024px) */
+@media only screen and (max-width: 1024px) {
+  .left, .right {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+  }
+
+  .right {
+    padding-left: 0;
+  }
 }
 
-.lang img {
-  width: 2rem;
-  margin: 1rem 0.5rem 0 0.5rem;
+/* 📱 Mobile (até 767px) */
+@media only screen and (max-width: 767px) {
+  /* ... ajustes mobile ... */
 }
-
-.reach_me {
-  margin: 2rem 0;
-  font-weight: bold;
-}
-
-.reach_me > * {
-  display: flex;
-  align-items: center;
-  margin-bottom: 0.5rem;
-}
-
-.reach_me i {
-  font-size: 2rem;
-  margin-right: 0.5rem;
-}
-
-.reach_me a {
-  text-decoration: none;
-}
-
-/* Links */
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #39f;
-}
-
-/* Web address */
-#webaddress {
-  margin-top: 1rem;
-  text-align: center;
-  color: #bc412b;
-  font-size: 1rem;
-}
-
-/* 📲 Tablet (768px a 1024px) */
-@media only screen and (min
