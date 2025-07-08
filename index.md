@@ -40,7 +40,7 @@ Jario
 # Jario 
 >> No mundo dos sonhos a ilusão é realidade, neste mundo a realidade é ilusão.
 
-## AbouteMe
+## AboutMe
 
 `Sobre mim`
 __Minha doutrina pessoal__

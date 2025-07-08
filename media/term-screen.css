@@ -226,7 +226,7 @@ p,h3,ul,.reach_me{
 
 .right {
 	padding-top: 20px;
-	/* REMOVIDO: right: 0; */
+	right: 0; 
 	width: 65%; /* Largura para a coluna direita no desktop (flex-item) */
 	border-width: 2px;
 	border-left-style: solid;
@@ -248,7 +248,7 @@ p,h3,ul,.reach_me{
 	border-color: white;
 	border-style: solid;
 	width: 100%; /* Permite que a imagem se ajuste ao container */
-    max-width: 250px; /* Limita o tamanho máximo da foto no desktop */
+    max-width: 100px; /* Limita o tamanho máximo da foto no desktop */
     margin: 0 auto; /* Centraliza a foto horizontalmente */
 }
 
