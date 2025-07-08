@@ -1,8 +1,7 @@
-/* Reset básico */
-html {
-  font-size: 16px;
-}
-
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
 @import "../assets/fonts/Fira_Code/fira_code.css";
 
@@ -288,79 +287,69 @@ h2:before {
 	top: 6vw;
 }
 
+/*
+@media only screen and (max-width: 480px) {
+	make one column somehow...
+}*/
 
-/* Web address */
-#webaddress {
-  margin-top: 1rem;
-  text-align: center;
-  color: #bc412b;
-  font-size: 1rem;
-}
-
-/* 📱 Responsivo: Tablet e Mobile */
-@media (max-width: 764px) {
-  .container {
-    flex-direction: column;
-    padding: 1rem;
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 4vw;
+    margin: 1em;
   }
 
   .left, .right {
+    display: block;
     width: 100%;
+    padding: 0;
+    margin: 0;
     border: none;
   }
 
+  .right {
+    padding-top: 1em;
+    padding-left: 0;
+    border-left: none;
+  }
+
   h1 {
-    font-size: 2.2rem;
+    font-size: 6vw;
     text-align: center;
   }
 
-  h2, h3 {
-    font-size: 1.4rem;
+  h2 {
+    font-size: 5vw;
     text-align: center;
+  }
+
+  h3 {
+    font-size: 4vw;
+    text-align: center;
+    top: 0;
   }
 
   p, ul, li {
-    font-size: 1.1rem;
+    font-size: 4vw;
     width: 100%;
   }
 
+  .reach_me i {
+    font-size: 6vw;
+  }
+
   #photo {
-    width: 10rem;
+    width: 40vw;
+    display: block;
+    margin: 0 auto;
   }
 
   .lang img {
-    width: 1.8rem;
-  }
-
-  .reach_me {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    margin: 2rem 0;
-  }
-
-  .reach_me > * {
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  .reach_me i {
-    font-size: 1.8rem;
-    margin-right: 0.5rem;
-    flex-shrink: 0;
-  }
-
-  .reach_me a {
-    font-size: 1.1rem;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    width: 8vw;
   }
 
   #webaddress {
-    font-size: 1.1rem;
+    left: 0;
+    text-align: center;
+    font-size: 4vw;
   }
 }
