@@ -3,44 +3,7 @@
 <head>
   <meta charset=utf-8 />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <style>
-    body {
-      font-family: sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    .container {
-      width: 100%;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    .left, .right {
-      display: inline-block;
-      vertical-align: top;
-      padding: 1rem;
-    }
-
-    .left {
-      width: 30%;
-
-    }
-
-    .right {
-      width: 65%;
-
-    }
-
-    @media (max-width: 1024px) {
-      .left, .right {
-        display: block;
-        width: 100%;
-      }
-    }
-  </style>
-
-  <title> {% if page.title %} {{ page.title }} | {% endif %}</title>
+  <title> {% if page.title %} {{ page.title }} |  {{ page.description }} {% endif %}</title>
   <link href="media/{{ site.style }}-screen.css" type="text/css" rel="stylesheet" media="screen">
   <link href="media/{{ site.style }}-print.css" type="text/css" rel="stylesheet" media="print">
 </head>
