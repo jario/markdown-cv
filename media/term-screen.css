@@ -39,9 +39,8 @@ ol, ul {
 }
 blockquote, q {
 	padding-left: 1.5em;
-	font-size: 1vw; /* Considere ajustar ou limitar com clamp() para desktop */
+	font-size: 10px; /* Considere ajustar ou limitar com clamp() para desktop */
 	quotes: none;
-	color: #DCDCDC;
 }
 
 blockquote:before, blockquote:after,
@@ -61,7 +60,7 @@ body {
 	font: normal normal 400;
 	font-size: 1rem; /* Alterado de vw para rem para tamanho de texto mais estável no desktop */
 	font-family: 'Fira Code';
-	max-width: 1400px; /* Limita a largura máxima do conteúdo no desktop */
+	/*max-width: 1400px;  Limita a largura máxima do conteúdo no desktop */
 	margin: 1em auto; /* Centraliza o conteúdo na tela */
 
     /* ADICIONADO: Propriedades Flexbox para o layout principal (se body for o contêiner de .left e .right) */
@@ -185,8 +184,8 @@ em {
 }
 
 strong {
-	color: #efa6a2;
-	font-weight: bold;
+
+	font-weight: normal;
 }
 
 #address {
@@ -195,8 +194,8 @@ strong {
 
 .left > *:not(.header) {
 	width: 88%;
-	left: 1vw; /* Considere um valor fixo ou em aqui também */
-	font-size: 1vw; /* Considere um valor fixo ou em aqui também */
+	left: 10px; /* Considere um valor fixo ou em aqui também */
+	font-size: 10px; /* Considere um valor fixo ou em aqui também */
 }
 
 .left .header > * {
@@ -280,7 +279,7 @@ h2:before {
 }
 
 .right h1{
-	color: #efa6a2;
+
 	left: 0;
 }
 
