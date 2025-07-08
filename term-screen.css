@@ -61,9 +61,14 @@ body {
 	font: normal normal 400;
 	font-size: 1rem; /* Alterado de vw para rem para tamanho de texto mais estável no desktop */
 	font-family: 'Fira Code';
-	margin-top: 1em;
 	max-width: 1400px; /* Limita a largura máxima do conteúdo no desktop */
 	margin: 1em auto; /* Centraliza o conteúdo na tela */
+
+    /* ADICIONADO: Propriedades Flexbox para o layout principal (se body for o contêiner de .left e .right) */
+    display: flex;
+    justify-content: space-between; /* Espaço entre as colunas */
+    align-items: flex-start; /* Alinha as colunas no topo */
+    flex-wrap: wrap; /* Permite que as colunas quebrem para a próxima linha em telas menores */
 }
 
 p {
@@ -205,18 +210,14 @@ strong {
 
 .left,.right {
 	box-sizing: border-box; /* Adicionado para incluir padding/border na largura total */
-	top: 0;
-	bottom: 0;
-	display: inline-block; /* Mantém o layout de duas colunas no desktop */
+	/* REMOVIDO: top: 0; bottom: 0; display: inline-block; vertical-align: top; - pois agora o pai usa flexbox */
 	overflow-x: hidden;
-	vertical-align: top; /* Garante que as colunas se alinhem no topo */
 }
 
 .left {
 	padding-top: 20px;
-	bottom: 10px;
-	left: 0;
-	width: 30%; /* Largura para a coluna esquerda no desktop */
+	/* REMOVIDO: bottom: 10px; left: 0; */
+	width: 30%; /* Largura para a coluna esquerda no desktop (flex-item) */
 	font-size: 1.5vw; /* Considere um valor fixo ou em aqui também */
 }
 
@@ -225,10 +226,9 @@ p,h3,ul,.reach_me{
 }
 
 .right {
-	box-sizing: border-box; /* Adicionado para incluir padding/border na largura total */
 	padding-top: 20px;
-	right: 0;
-	width: 65%; /* Largura para a coluna direita no desktop */
+	/* REMOVIDO: right: 0; */
+	width: 65%; /* Largura para a coluna direita no desktop (flex-item) */
 	border-width: 2px;
 	border-left-style: solid;
 	margin: 0;
@@ -243,12 +243,14 @@ p,h3,ul,.reach_me{
 }
 
 #photo {
-	display: inline;
+	display: block; /* Alterado de inline para block para melhor controle e centralização */
 	border: 0.5vw; /* Considere um valor fixo ou em aqui também */
 	border-radius: 50%;	
 	border-color: white;
 	border-style: solid;
-	width: 20vw; /* Considere um valor fixo ou em aqui também */
+	width: 100%; /* Permite que a imagem se ajuste ao container */
+    max-width: 250px; /* Limita o tamanho máximo da foto no desktop */
+    margin: 0 auto; /* Centraliza a foto horizontalmente */
 }
 
 .reach_me {
@@ -288,16 +290,17 @@ h2:before {
 
 /* Estilos para Tablets (de 769px a 1024px) */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-  body {
+  body { /* Se body for o contêiner das colunas */
     font-size: 2.5vw; /* Tamanho de fonte ajustado para tablet */
     margin: 1.5em;
     max-width: 100%; /* Remove limite de largura do desktop */
+    /* MANTÉM: display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; */
   }
 
   .left, .right {
-    display: inline-block; /* Mantém as duas colunas */
-    width: 48%; /* Ajusta as larguras para tablet */
-    vertical-align: top;
+    /* REMOVIDO: display: inline-block; pois body já é flex */
+    width: 48%; /* Ajusta as larguras para tablet (flex-item) */
+    /* REMOVIDO: vertical-align: top; */
     padding: 0.5em;
   }
 
@@ -327,4 +330,82 @@ h2:before {
   }
 
   #photo {
-    width: 25
+    width: 100%; /* Ajusta a imagem ao container no tablet */
+    max-width: 200px; /* Limite opcional para tablets */
+  }
+
+  .lang img {
+    width: 5vw;
+  }
+
+  #webaddress {
+    font-size: 2.5vw;
+  }
+}
+
+/* Estilos para Celulares (largura máxima de 768px) */
+@media only screen and (max-width: 768px) {
+  body { /* Se body for o contêiner das colunas */
+    font-size: 4vw;
+    margin: 1em;
+    max-width: 100%; /* Remove limite de largura do desktop */
+    /* ADICIONADO: Flexbox para quebrar colunas em uma linha (flex-wrap: wrap; já no body) */
+    flex-direction: column; /* Força as colunas a empilhar */
+  }
+
+  .left, .right {
+    display: block; /* Garante que cada coluna ocupe 100% da largura */
+    width: 100%; /* Ocupa a largura total disponível */
+    padding: 0;
+    margin: 0;
+    border: none;
+  }
+
+  .right {
+    padding-top: 1em;
+    padding-left: 0;
+    border-left: none;
+  }
+
+  h1 {
+    font-size: 6vw;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 5vw;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 4vw;
+    text-align: center;
+    top: 0;
+  }
+
+  p, ul, li {
+    font-size: 4vw;
+    width: 100%;
+  }
+
+  .reach_me i {
+    font-size: 6vw;
+  }
+
+  #photo {
+    width: 100%; /* Ajusta a imagem ao container no celular */
+    max-width: 250px; /* Limite opcional para celulares */
+    display: block;
+    margin: 0 auto;
+  }
+
+  .lang img {
+    width: 8vw;
+  }
+
+  #webaddress {
+    left: 0;
+    text-align: center;
+    font-size: 4vw;
+  }
+}
