@@ -291,3 +291,65 @@ h2:before {
 @media only screen and (max-width: 480px) {
 	make one column somehow...
 }*/
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 4vw;
+    margin: 1em;
+  }
+
+  .left, .right {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+  }
+
+  .right {
+    padding-top: 1em;
+    padding-left: 0;
+    border-left: none;
+  }
+
+  h1 {
+    font-size: 6vw;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 5vw;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 4vw;
+    text-align: center;
+    top: 0;
+  }
+
+  p, ul, li {
+    font-size: 4vw;
+    width: 100%;
+  }
+
+  .reach_me i {
+    font-size: 6vw;
+  }
+
+  #photo {
+    width: 40vw;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .lang img {
+    width: 8vw;
+  }
+
+  #webaddress {
+    left: 0;
+    text-align: center;
+    font-size: 4vw;
+  }
+}
