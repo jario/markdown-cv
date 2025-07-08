@@ -56,13 +56,15 @@ table {
 
 /* end of reset */
 
+/* Estilos Padrão para Desktop */
 body {
 	font: normal normal 400;
-	font-size: 1.1vw;
-	/*also written as...  font: normal normal 400 100%/1.5em;*/
+	font-size: 1.1vw; /* Cuidado com vw em desktop para textos, pode ficar muito grande em telas grandes. Considere rem ou clamp(). */
 	font-family: 'Fira Code';
 	margin-top: 1em;
 	margin-left: 1em;
+	max-width: 1400px; /* Limita a largura máxima do conteúdo no desktop */
+	margin: 1em auto; /* Centraliza o conteúdo na tela */
 }
 
 p {
@@ -76,7 +78,6 @@ p {
 code {
 	font: normal normal;
 	font-size: 90%;
-	/*line-height: 1em;*/
 	font-family: Monaco,Menlo,monospace,sans-serif;
 	color: #aaa;
 }
@@ -122,7 +123,7 @@ h1,h2,h3,h4 {
 h1 {
 	margin-top: 10px;
 	font-weight: bold;
-	font-size: 3vw;
+	font-size: 3vw; /* Considere um tamanho fixo ou clamp() para desktop */
 	text-align: left;
 	line-height: 1em;
 	position: relative;
@@ -206,17 +207,17 @@ strong {
 .left,.right {
 	top: 0;
 	bottom: 0;
-	display: inline-block;
+	display: inline-block; /* Mantém o layout de duas colunas no desktop */
 	overflow-x: hidden;
+	vertical-align: top; /* Garante que as colunas se alinhem no topo */
 }
 
 .left {
 	padding-top: 20px;
 	bottom: 10px;
 	left: 0;
-	width: 30%;
+	width: 30%; /* Largura para a coluna esquerda no desktop */
 	font-size: 1.5vw;
-	vertical-align: top;
 }
 
 p,h3,ul,.reach_me{
@@ -226,7 +227,7 @@ p,h3,ul,.reach_me{
 .right {
 	padding-top: 20px;
 	right: 0;
-	width: 65%;
+	width: 65%; /* Largura para a coluna direita no desktop */
 	border-width: 2px;
 	border-left-style: solid;
 	margin: 0;
@@ -284,28 +285,27 @@ h2:before {
 	top: 6vw;
 }
 
-/* Estilos para Tablets (do maior celular/tablet pequeno até um tablet maior) */
+/* Estilos para Tablets (de 769px a 1024px) */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   body {
-    font-size: 2.5vw; /* Exemplo: um pouco maior que celular */
+    font-size: 2.5vw; /* Tamanho de fonte ajustado para tablet */
     margin: 1.5em;
+    max-width: 100%; /* Remove limite de largura do desktop */
   }
 
   .left, .right {
-    /* Mantenha o layout de duas colunas, mas ajuste larguras se necessário */
-    display: inline-block; /* Ou flexbox para melhor controle */
-    width: 48%; /* Exemplo: para duas colunas */
+    display: inline-block; /* Mantém as duas colunas */
+    width: 48%; /* Ajusta as larguras para tablet */
     vertical-align: top;
     padding: 0.5em;
-    /* Ajustes específicos para tablet */
   }
 
   .right {
-    border-left: 2px solid; /* Manter a borda, se desejar */
+    border-left: 2px solid; /* Mantém a borda da coluna direita */
   }
 
   h1 {
-    font-size: 4vw; /* Exemplo: tamanho de fonte para tablet */
+    font-size: 4vw; /* Tamanho da fonte para h1 em tablet */
   }
 
   h2 {
@@ -318,7 +318,7 @@ h2:before {
 
   p, ul, li {
     font-size: 2.5vw;
-    width: 95%; /* Ajustar largura do texto */
+    width: 95%; /* Ajusta largura do texto em tablet */
   }
 
   .reach_me i {
@@ -336,7 +336,6 @@ h2:before {
   #webaddress {
     font-size: 2.5vw;
   }
-  /* Adicione outras regras CSS específicas para tablets aqui */
 }
 
 /* Estilos para Celulares (largura máxima de 768px) */
@@ -344,10 +343,11 @@ h2:before {
   body {
     font-size: 4vw;
     margin: 1em;
+    max-width: 100%; /* Remove limite de largura do desktop */
   }
 
   .left, .right {
-    display: block; /* Uma coluna */
+    display: block; /* Layout de uma coluna para celular */
     width: 100%;
     padding: 0;
     margin: 0;
