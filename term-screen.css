@@ -39,7 +39,7 @@ ol, ul {
 }
 blockquote, q {
 	padding-left: 1.5em;
-	font-size: 1vw;
+	font-size: 1vw; /* Considere ajustar ou limitar com clamp() para desktop */
 	quotes: none;
 	color: #DCDCDC;
 }
@@ -56,13 +56,12 @@ table {
 
 /* end of reset */
 
-/* Estilos Padrão para Desktop */
+/* Estilos Padrão para Desktop (base para todas as telas, mas primariamente para desktop) */
 body {
 	font: normal normal 400;
-	font-size: 1.1vw; /* Cuidado com vw em desktop para textos, pode ficar muito grande em telas grandes. Considere rem ou clamp(). */
+	font-size: 1rem; /* Alterado de vw para rem para tamanho de texto mais estável no desktop */
 	font-family: 'Fira Code';
 	margin-top: 1em;
-	margin-left: 1em;
 	max-width: 1400px; /* Limita a largura máxima do conteúdo no desktop */
 	margin: 1em auto; /* Centraliza o conteúdo na tela */
 }
@@ -123,7 +122,7 @@ h1,h2,h3,h4 {
 h1 {
 	margin-top: 10px;
 	font-weight: bold;
-	font-size: 3vw; /* Considere um tamanho fixo ou clamp() para desktop */
+	font-size: 2.5rem; /* Alterado de vw para rem para tamanho de título mais estável no desktop */
 	text-align: left;
 	line-height: 1em;
 	position: relative;
@@ -136,7 +135,7 @@ h1+p {
 }
 
 h2 {
-	font-size: 1.1em;
+	font-size: 1.1em; /* Unidade em para ser relativa ao font-size do elemento pai */
 	color: #50cacd;
 	margin-top: 3em;
 	margin-bottom: 0.8em;
@@ -146,7 +145,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1em;
+	font-size: 1em; /* Unidade em */
 	line-height: 2em;
 	position: relative;
 	top: 1.7em;
@@ -169,7 +168,7 @@ a:hover {
 	left: 25%;
 	color: #bc412b;
 	font-family: 'Fira Code';
-	font-size: 100%;
+	font-size: 100%; /* Pode ser ajustado com rem se necessário */
 }
 
 #webaddress a {
@@ -191,8 +190,8 @@ strong {
 
 .left > *:not(.header) {
 	width: 88%;
-	left: 1vw;
-	font-size: 1vw;
+	left: 1vw; /* Considere um valor fixo ou em aqui também */
+	font-size: 1vw; /* Considere um valor fixo ou em aqui também */
 }
 
 .left .header > * {
@@ -205,6 +204,7 @@ strong {
 }
 
 .left,.right {
+	box-sizing: border-box; /* Adicionado para incluir padding/border na largura total */
 	top: 0;
 	bottom: 0;
 	display: inline-block; /* Mantém o layout de duas colunas no desktop */
@@ -217,7 +217,7 @@ strong {
 	bottom: 10px;
 	left: 0;
 	width: 30%; /* Largura para a coluna esquerda no desktop */
-	font-size: 1.5vw;
+	font-size: 1.5vw; /* Considere um valor fixo ou em aqui também */
 }
 
 p,h3,ul,.reach_me{
@@ -225,6 +225,7 @@ p,h3,ul,.reach_me{
 }
 
 .right {
+	box-sizing: border-box; /* Adicionado para incluir padding/border na largura total */
 	padding-top: 20px;
 	right: 0;
 	width: 65%; /* Largura para a coluna direita no desktop */
@@ -237,17 +238,17 @@ p,h3,ul,.reach_me{
 
 .lang img {
 	display: inline;
-	width: 3vw;
-	margin: 4vw 0.5vw 0 0.5vw;
+	width: 3vw; /* Considere um valor fixo ou em aqui também */
+	margin: 4vw 0.5vw 0 0.5vw; /* Considere um valor fixo ou em aqui também */
 }
 
 #photo {
 	display: inline;
-	border: 0.5vw;
+	border: 0.5vw; /* Considere um valor fixo ou em aqui também */
 	border-radius: 50%;	
 	border-color: white;
 	border-style: solid;
-	width: 20vw;
+	width: 20vw; /* Considere um valor fixo ou em aqui também */
 }
 
 .reach_me {
@@ -263,7 +264,7 @@ p,h3,ul,.reach_me{
 }
 
 .reach_me i {
-	font-size: 2.5vw;
+	font-size: 2.5vw; /* Considere um valor fixo ou em aqui também */
 	margin: 0 10px 0 0;
 }
 
@@ -282,7 +283,7 @@ h2:before {
 }
 
 .right {
-	top: 6vw;
+	top: 3em; /* Alterado de vw para em para posicionamento vertical mais estável no desktop */
 }
 
 /* Estilos para Tablets (de 769px a 1024px) */
@@ -318,7 +319,7 @@ h2:before {
 
   p, ul, li {
     font-size: 2.5vw;
-    width: 95%; /*  Ajusta largura do texto em tablet */
+    width: 95%; /* Ajusta largura do texto em tablet */
   }
 
   .reach_me i {
@@ -326,78 +327,4 @@ h2:before {
   }
 
   #photo {
-    width: 25vw; /* Tamanho da foto para tablet */
-  }
-
-  .lang img {
-    width: 5vw;
-  }
-
-  #webaddress {
-    font-size: 2.5vw;
-  }
-}
-
-/* Estilos para Celulares (largura máxima de 768px) */
-@media only screen and (max-width: 768px) {
-  body {
-    font-size: 4vw;
-    margin: 1em;
-    max-width: 100%; /* Remove limite de largura do desktop */
-  }
-
-  .left, .right {
-    display: block; /* Layout de uma coluna para celular */
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    border: none;
-  }
-
-  .right {
-    padding-top: 1em;
-    padding-left: 0;
-    border-left: none;
-  }
-
-  h1 {
-    font-size: 6vw;
-    text-align: center;
-  }
-
-  h2 {
-    font-size: 5vw;
-    text-align: center;
-  }
-
-  h3 {
-    font-size: 4vw;
-    text-align: center;
-    top: 0;
-  }
-
-  p, ul, li {
-    font-size: 4vw;
-    width: 100%;
-  }
-
-  .reach_me i {
-    font-size: 6vw;
-  }
-
-  #photo {
-    width: 40vw;
-    display: block;
-    margin: 0 auto;
-  }
-
-  .lang img {
-    width: 8vw;
-  }
-
-  #webaddress {
-    left: 0;
-    text-align: center;
-    font-size: 4vw;
-  }
-}
+    width: 25
